@@ -94,8 +94,14 @@
 //   console.log(array + 5)
 // }
 
-let array = [5, 10, 15, 20];
-for (let i = 0; i < array.length; i++) {
-  array[i] = [i] + 5;
+// let array = [5, 10, 15, 20];
+// for (let i = 0; i < array.length; i++) {
+//   array[i] = array[i] + 5;
+//   console.log(array);
+// }
+
+let array = [5, 10, 15, 20, 25];
+for (let i = 0; i < array.length; i += 2) {
+  array[i] = array[i] + 10;
   console.log(array);
 }
