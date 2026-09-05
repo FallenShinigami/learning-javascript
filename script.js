@@ -100,8 +100,19 @@
 //   console.log(array);
 // }
 
-let array = [5, 10, 15, 20, 25];
-for (let i = 0; i < array.length; i += 2) {
-  array[i] = array[i] + 10;
-  console.log(array);
+// let array = [5, 10, 15, 20, 25];
+// for (let i = 0; i < array.length; i += 2) {
+//   array[i] = array[i] + 10;
+//   console.log(array);
+// }
+
+// let numbers = [10, 20, 30, 40, 50]
+// for(let i = 0; i < numbers.length; i++){
+//   numbers[i]= numbers[i] + 5;
+//  console.log(numbers)
+// }
+let numbers = [10, 20, 30, 40, 50];
+for (let i = 0; i < numbers.length; i + 3) {
+  numbers[i] = numbers[i] + 10;
+  console.log(numbers);
 }
