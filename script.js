@@ -111,8 +111,25 @@
 //   numbers[i]= numbers[i] + 5;
 //  console.log(numbers)
 // }
-let numbers = [10, 20, 30, 40, 50];
-for (let i = 0; i < numbers.length; i + 3) {
-  numbers[i] = numbers[i] + 10;
-  console.log(numbers);
+
+// let numbers = [5, 10, 15, 20, 25, 30]
+// for (let i = 0; i < numbers.length; i+=2){
+//   numbers[i]= numbers[i]*2 ;
+//   console.log(numbers)
+// }
+
+// let numbers = [5, 10, 15, 20, 25, 30];
+// for (let i = 1; i < numbers.length; i += 2) {
+//   numbers[i] = numbers[i] * 2;
+//   console.log(numbers);
+// }
+
+// alert( "I'm JavaScript!" );
+let name = prompt("What is your name?", "");
+let age = prompt("What is your age?", "");
+if (age >= 18) {
+  alert("Welcome");
+  confirm(`Your name is ${name} and your age is ${age}`);
+} else {
+  alert("You should be above 18 years to enter");
 }
