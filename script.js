@@ -125,11 +125,19 @@
 // }
 
 // alert( "I'm JavaScript!" );
-let name = prompt("What is your name?", "");
-let age = prompt("What is your age?", "");
-if (age >= 18) {
-  alert("Welcome");
-  confirm(`Your name is ${name} and your age is ${age}`);
+// let name = prompt("What is your name?", "");
+// let age = prompt("What is your age?", "");
+// if (age >= 18) {
+//   alert("Welcome");
+//   confirm(`Your name is ${name} and your age is ${age}`);
+// } else {
+//   alert("You should be above 18 years to enter");
+// }
+let value = prompt("Write the value", "");
+if (value >= 0) {
+  alert(1);
+} else if (value <= 0) {
+  alert(-1);
 } else {
-  alert("You should be above 18 years to enter");
+  alert(0);
 }
