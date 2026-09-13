@@ -133,11 +133,20 @@
 // } else {
 //   alert("You should be above 18 years to enter");
 // }
-let value = prompt("Write the value", "");
-if (value >= 0) {
-  alert(1);
-} else if (value <= 0) {
-  alert(-1);
-} else {
-  alert(0);
-}
+// let value = prompt("Write the value", "");
+// if (value >= 0) {
+//   alert(1);
+// } else if (value <= 0) {
+//   alert(-1);
+// } else {
+//   alert(0);
+// }
+let login = prompt("Who are you?");
+let message =
+  login == "Employee"
+    ? "hello"
+    : login == "Director"
+      ? "Greetings"
+      : login == ""
+        ? "No Login"
+        : "";
