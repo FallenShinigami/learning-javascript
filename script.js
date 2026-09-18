@@ -151,18 +151,18 @@
 //         ? "No Login"
 //         : "";
 
-let login = prompt("Who is this?");
-if (login == "Admin") {
-  let password = prompt("Enter your password");
-  if ((password = "TheMaster")) {
-    alert("Welcome");
-  } else if (password == "" || password == null) {
-    alert("canceled");
-  } else {
-    alert("Wrong password");
-  }
-} else if (login == "" || login == null) {
-  alert("canceled");
-} else {
-  alert("i dont know you");
-}
+// let login = prompt("Who is this?");
+// if (login == "Admin") {
+//   let password = prompt("Enter your password");
+//   if ((password = "TheMaster")) {
+//     alert("Welcome");
+//   } else if (password == "" || password == null) {
+//     alert("canceled");
+//   } else {
+//     alert("Wrong password");
+//   }
+// } else if (login == "" || login == null) {
+//   alert("canceled");
+// } else {
+//   alert("i dont know you");
+// }
